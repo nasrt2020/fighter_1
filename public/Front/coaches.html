@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- metas -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Chitrakoot Web" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="keywords" content="Nonprofit and Donation Template" />
+    <meta
+      name="description"
+      content="Charity - Nonprofit and Donation Template"
+    />
+
+    <!-- title  -->
+    <title>Coaches — EHF</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logos/we kan@3x1.png" />
+    <link rel="apple-touch-icon" href="img/logos/we kan@3x1.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/logos/we kan@3x1.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/logos/we kan@3x1.png"
+    />
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- search css -->
+    <link rel="stylesheet" href="search/search.css" />
+
+    <!-- quform css -->
+    <link rel="stylesheet" href="quform/css/base.css" />
+
+    <!-- core style css -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- custom style css -->
+    <link href="css/custom.css" rel="stylesheet" />
+
+    <!-- ====== Advanced Coaches page styles ====== -->
+  </head>
+
+  <body>
+    <!-- PAGE LOADING -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper">
+      <!-- HEADER (your template, unchanged) -->
+      <header class="header-style3">
+        <div id="top-bar">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-xs-12">
+                <div class="top-bar-info">
+                  <ul class="ps-0">
+                    <li>
+                      <i class="ti-mobile text-secondary"></i>(+93) 791 75 35 11
+                    </li>
+                    <li class="d-none d-sm-inline-block">
+                      <i class="ti-email text-secondary"></i>Wahid@gmail.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-3 d-none d-md-block">
+                <ul class="top-social-icon ps-0">
+                  <li>
+                    <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-default">
+          <!-- top search -->
+          <div class="top-search bg-primary">
+            <div class="container">
+              <form
+                class="search-form"
+                action="search.html"
+                method="GET"
+                accept-charset="utf-8"
+              >
+                <div class="input-group">
+                  <span class="input-group-addon cursor-pointer">
+                    <button
+                      class="search-form_submit fas fa-search text-white"
+                      type="submit"
+                    ></button>
+                  </span>
+                  <input
+                    type="text"
+                    class="search-form_input form-control"
+                    name="s"
+                    autocomplete="off"
+                    placeholder="Type & hit enter..."
+                  />
+                  <span class="input-group-addon close-search"
+                    ><i class="fas fa-times mt-3"></i
+                  ></span>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- end top search -->
+
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-12">
+                <div class="menu_area">
+                  <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <div class="navbar-header navbar-header-custom">
+                      <a href="index.html" class="navbar-brand logowhite">
+                        <img
+                          id="logo"
+                          src="img/logos/logo_3x.png"
+                          alt="logo"
+                          style="width: 230px"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="navbar-toggler bg-primary"></div>
+
+                    <!-- menu area -->
+                    <ul
+                      class="navbar-nav ms-auto mt-lg-2"
+                      id="nav"
+                      style="display: none"
+                    >
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About Us</a></li>
+                      <li>
+                        <a href="#!">Fighters</a>
+                        <ul>
+                          <li>
+                            <a href="eagle-fighters.html">EHF Fighters</a>
+                          </li>
+                          <li>
+                            <a href="traning-fighters.html">Camps Fighters</a>
+                          </li>
+                          <li>
+                            <a href="coaches.html">Couches Detail</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="news.html" data-i18n="nav.news">News</a>
+                      </li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li class="nav-item dropdown language-nav">
+                        <a
+                          class="nav-link dropdown-toggle d-flex align-items-center justify-content-center"
+                          href="#"
+                          id="langDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          aria-label="Change language"
+                        >
+                          <!-- Translation / language icon only -->
+                          <i class="fas fa-language nav-lang-icon"></i>
+                        </a>
+
+                        <ul
+                          class="dropdown-menu dropdown-menu-end p-1"
+                          aria-labelledby="langDropdown"
+                        >
+                          <li>
+                            <button
+                              class="dropdown-item d-flex align-items-center gap-2"
+                              data-lang="en"
+                              onclick="changeLanguage('en')"
+                            >
+                              <img
+                                src="https://flagcdn.com/w20/us.png"
+                                alt="English"
+                                width="20"
+                                height="15"
+                                class="rounded"
+                              />
+                              English
+                            </button>
+                          </li>
+                          <li>
+                            <button
+                              class="dropdown-item d-flex align-items-center gap-2"
+                              data-lang="prs"
+                              onclick="changeLanguage('prs')"
+                            >
+                              <img
+                                src="https://flagcdn.com/w20/af.png"
+                                alt="Dari"
+                                width="20"
+                                height="15"
+                                class="rounded"
+                              />
+                              دری (Dari)
+                            </button>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <!-- end menu area -->
+
+                    <!-- attribute navigation -->
+                    <div class="attr-nav">
+                      <ul>
+                        <li class="search me-1 me-lg-0">
+                          <a href="#!"><i class="fas fa-search"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end attribute navigation -->
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ===================== COACHES ===================== -->
+      <section class="co-wrap wow fadeInUp" data-wow-delay="100ms">
+        <div class="co-container">
+          <header class="co-head">
+            <h1 class="co-title display-26 display-sm-24">Our Coaches</h1>
+            <p class="co-sub">
+              Elite staff across striking, grappling, conditioning, and more.
+            </p>
+          </header>
+
+          <!-- Controls -->
+          <div class="co-controls" role="region" aria-label="Coaches controls">
+            <label class="co-ctrl" aria-label="Search">
+              <svg
+                class="co-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M21 21l-4.2-4.2M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <input
+                id="q"
+                type="search"
+                placeholder="Search name…"
+                autocomplete="off"
+              />
+            </label>
+
+            <label class="co-ctrl" aria-label="Sort">
+              <select id="sort">
+                <option value="name-asc">Name A–Z</option>
+                <option value="name-desc">Name Z–A</option>
+                <option value="exp-desc">Experience ↓</option>
+                <option value="exp-asc">Experience ↑</option>
+              </select>
+            </label>
+
+            <label class="co-ctrl" aria-label="Filter by role">
+              <select id="role">
+                <option value="All">All roles</option>
+              </select>
+            </label>
+          </div>
+
+          <!-- Specialty chips (hidden by CSS) -->
+          <div
+            id="chips"
+            class="chip-row"
+            aria-label="Filter by specialty"
+          ></div>
+
+          <!-- Grid -->
+          <div id="grid" class="co-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- FOOTER (your template, unchanged) -->
+      <footer
+        class="bg-img cover-background mt-3"
+        data-overlay-dark="85"
+        data-background=""
+      >
+        <div class="container">
+          <div class="row mt-n2-9">
+            <!-- Column 1: Brand/About + Social -->
+            <div
+              class="col-lg-4 col-md-6 mt-2-9 wow fadeIn"
+              data-wow-delay="200ms"
+            >
+              <div class="mb-1-6 footer-logo-wrap">
+                <img
+                  src="img/logos/logo@3xx.png"
+                  alt="EHF Logo"
+                  class="footer-logo"
+                />
+              </div>
+              <p class="text-white opacity9 font-weight-300 mb-1-9">
+                There are many variations of passages of lorem available, but
+                the majority have suffered alteration in some form, by injected
+                humour.
+              </p>
+              <ul class="social-icon-style2">
+                <li>
+                  <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div
+              class="col-lg-4 col-md-6 mt-2-9 wow fadeIn"
+              data-wow-delay="400ms"
+            >
+              <div class="ps-lg-1-9 ps-xl-8">
+                <h3 class="text-secondary h5 mb-1-9">Quick Links</h3>
+                <ul class="footer-list ps-0">
+                  <li class="pt-0"><a href="about.html">About Us</a></li>
+                  <li><a href="eagle-fighters.html">EHF Fighters</a></li>
+                  <li>
+                    <a href="traning-fighters.html">Camps Fighters</a>
+                  </li>
+                  <li>
+                    <a href="coaches.html">Couches Detail</a>
+                  </li>
+                  <li>
+                    <a href="news.html" data-i18n="footer.news"> News </a>
+                  </li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Column 3: Contact -->
+            <div
+              class="col-lg-4 col-md-6 mt-2-9 wow fadeIn"
+              data-wow-delay="600ms"
+            >
+              <div>
+                <h3 class="text-secondary h5 mb-1-9">Contact Us</h3>
+                <ul class="footer-list ps-0">
+                  <li class="pt-0">
+                    <span class="d-inline-block align-middle">
+                      <i class="fas fa-map-marker-alt display-29"></i>
+                    </span>
+                    <span class="d-inline-block w-85 align-top ps-2">
+                      500 family behind sultant hall kabul Afghanistan
+                    </span>
+                  </li>
+                  <li>
+                    <span class="d-inline-block align-middle">
+                      <i class="far fa-envelope display-29"></i>
+                    </span>
+                    <span class="d-inline-block w-85 align-top ps-2">
+                      Wahid@gmail.com
+                    </span>
+                  </li>
+                  <li>
+                    <span class="d-inline-block align-middle">
+                      <i class="fas fa-globe display-29"></i>
+                    </span>
+                    <span class="d-inline-block w-85 align-top ps-2">
+                      www.EHF.com
+                    </span>
+                  </li>
+                  <li class="pb-0">
+                    <span class="d-inline-block align-middle">
+                      <i class="fas fa-phone display-29"></i>
+                    </span>
+                    <span class="d-inline-block w-85 align-top ps-2">
+                      +93 791753511
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- (Trending Post column removed) -->
+          </div>
+
+          <div
+            class="footer-bar borders-top border-color-light-white wow fadeIn"
+            data-wow-delay="400ms"
+          >
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p class="mb-0">
+                  &copy; 2021 Charity is Powered by
+                  <a href="#!" class="text-secondary primary-hover"
+                    >Chitrakoot Web</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- start scroll to top -->
+    <a href="#!" class="scroll-to-top"
+      ><i class="fas fa-angle-up" aria-hidden="true"></i
+    ></a>
+    <!-- end scroll to top -->
+
+    <!-- JS from your template -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="search/search.js"></script>
+    <script src="js/nav-menu.js"></script>
+    <script src="js/easy.responsive.tabs.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/lightgallery-all.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/tilt.js"></script>
+    <script src="js/main.js"></script>
+    <script src="quform/js/plugins.js"></script>
+    <script src="quform/js/scripts.js"></script>
+
+    <!-- ====== Advanced coaches logic (chips & pills removed visually) ====== -->
+    <script>
+      // Demo data (replace with your real data)
+      const COACHES = [
+        {
+          id: "jamal-hakimi",
+          name: "Jamal Hakimi",
+          role: "Head Coach",
+          experience: 18,
+          specialties: ["Striking", "MMA Strategy"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "sara-rahmani",
+          name: "Sara Rahmani",
+          role: "Striking Coach",
+          experience: 12,
+          specialties: ["Boxing", "Kickboxing"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "omid-karimi",
+          name: "Omid Karimi",
+          role: "Grappling Coach",
+          experience: 10,
+          specialties: ["BJJ", "No-Gi"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "ali-khan",
+          name: "Ali Khan",
+          role: "Muay Thai Coach",
+          experience: 7,
+          specialties: ["Muay Thai", "Clinching"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "zahir-ahmadi",
+          name: "Zahir Ahmadi",
+          role: "Wrestling Coach",
+          experience: 15,
+          specialties: ["Freestyle", "Greco-Roman"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "laila-noori",
+          name: "Laila Noori",
+          role: "Conditioning Coach",
+          experience: 9,
+          specialties: ["S&C", "Recovery"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "rahim-sadeq",
+          name: "Rahim Sadeq",
+          role: "Jiu-Jitsu Coach",
+          experience: 11,
+          specialties: ["BJJ", "Submission"],
+          img: "img/video/isr.jpg",
+        },
+        {
+          id: "maria-duran",
+          name: "Maria Duran",
+          role: "Nutritionist",
+          experience: 8,
+          specialties: ["Nutrition", "Cutting"],
+          img: "img/video/isr.jpg",
+        },
+      ];
+
+      const $ = (s) => document.querySelector(s);
+      const $$ = (s) => Array.from(document.querySelectorAll(s));
+      const esc = (s) =>
+        String(s).replace(
+          /[&<>"']/g,
+          (m) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            }[m])
+        );
+      const esca = (s) => esc(s).replace(/`/g, "&#96;");
+
+      // Populate role filter ONLY (chips hidden/unused)
+      function populateFilters() {
+        const roles = Array.from(new Set(COACHES.map((c) => c.role))).sort(
+          (a, b) => a.localeCompare(b)
+        );
+        $("#role").innerHTML =
+          `<option value="All">All roles</option>` +
+          roles
+            .map((r) => `<option value="${esca(r)}">${esc(r)}</option>`)
+            .join("");
+        // No chips creation here (removed)
+      }
+
+      // Render grid (no specialty pills shown on cards)
+      function render() {
+        const q = ($("#q").value || "").toLowerCase().trim();
+        const role = $("#role").value;
+        const sort = $("#sort").value;
+
+        let data = COACHES.filter((c) => {
+          const matchesQ = !q || c.name.toLowerCase().includes(q);
+          const matchesRole = role === "All" || c.role === role;
+          return matchesQ && matchesRole;
+        });
+
+        data.sort((a, b) => {
+          if (sort === "name-asc") return a.name.localeCompare(b.name);
+          if (sort === "name-desc") return b.name.localeCompare(a.name);
+          if (sort === "exp-asc") return a.experience - b.experience;
+          if (sort === "exp-desc") return b.experience - a.experience;
+          return 0;
+        });
+
+        const grid = $("#grid");
+        grid.innerHTML =
+          data.map((c) => coachCard(c)).join("") ||
+          `<p style="grid-column:1/-1; color:#6a7286; text-align:center;">No coaches match the filters.</p>`;
+
+        $$(".js-quick").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const id = btn.getAttribute("data-id");
+            const coach = COACHES.find((c) => c.id === id);
+            openModal(coach);
+          });
+        });
+      }
+
+      function coachCard(c) {
+        return `
+          <div class="co-col">
+            <article class="coach" itemscope itemtype="https://schema.org/Person">
+              <div class="c-media">
+                <img src="${esca(c.img)}" alt="${esca(
+          c.name
+        )}" itemprop="image" loading="lazy" decoding="async">
+                <span class="badge-role" itemprop="jobTitle">${esc(
+                  c.role
+                )}</span>
+              </div>
+              <div class="c-body">
+                <div>
+                  <h3 class="c-name" itemprop="name">${esc(c.name)}</h3>
+                  <p class="c-sub soft">Experience: <strong>${esc(
+                    c.experience
+                  )} yrs</strong></p>
+                </div>
+                <!-- specialties removed from card view -->
+                <div class="c-actions">
+                  <button class="ghost js-quick" data-id="${esca(
+                    c.id
+                  )}" aria-label="Quick view ${esca(
+          c.name
+        )}">Quick View</button>
+                  <span class="soft">&nbsp;</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        `;
+      }
+
+      // Modal (keeps Primary/Other specialties)
+      function openModal(coach) {
+        if (!coach) return;
+        const modal = document.createElement("div");
+        modal.className = "modal open";
+        modal.innerHTML = `
+          <div class="modal-card" role="dialog" aria-modal="true" aria-label="${esca(
+            coach.name
+          )} details">
+            <div class="mc-media"><img src="${esca(coach.img)}" alt="${esca(
+          coach.name
+        )} large"></div>
+            <div class="mc-body">
+              <h3 class="mc-title">${esc(coach.name)}</h3>
+              <div class="mc-role">${esc(coach.role)} • ${esc(
+          coach.experience
+        )} yrs experience</div>
+              <div class="mc-grid">
+                <div class="kv">
+                  <small>Primary Specialty</small>
+                  <strong>${esc((coach.specialties || [])[0] || "—")}</strong>
+                </div>
+                <div class="kv">
+                  <small>Other Specialties</small>
+                  <strong>${esc(
+                    (coach.specialties || []).slice(1).join(", ") || "—"
+                  )}</strong>
+                </div>
+              </div>
+              <div class="mc-footer">
+                <button class="btn btn-close" data-close>Close</button>
+                <a href="https://wa.me/93791753511" target="_blank" class="btn btn-primary">Contact</a>
+              </div>
+            </div>
+          </div>
+        `;
+        document.body.appendChild(modal);
+
+        function close() {
+          modal.remove();
+        }
+        modal.addEventListener("click", (e) => {
+          if (e.target.classList.contains("modal")) close();
+        });
+        modal.querySelector(".btn-close").addEventListener("click", close);
+        document.addEventListener("keydown", escHandler);
+        function escHandler(e) {
+          if (e.key === "Escape") {
+            close();
+            document.removeEventListener("keydown", escHandler);
+          }
+        }
+      }
+
+      // Init
+      populateFilters();
+      render();
+      $("#q").addEventListener("input", render);
+      $("#role").addEventListener("change", render);
+      $("#sort").addEventListener("change", render);
+    </script>
+  </body>
+</html>
